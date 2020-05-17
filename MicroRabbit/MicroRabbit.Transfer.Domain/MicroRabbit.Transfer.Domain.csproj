@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -7,10 +7,10 @@
   <ItemGroup>
     <Folder Include="CommandHandlers\" />
     <Folder Include="Commands\" />
-    <Folder Include="Events\" />
-    <Folder Include="EventHandlers\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>
